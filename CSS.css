@@ -1,0 +1,111 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/css.css to edit this template
+*/
+/* 
+    Created on : 6 de set. de 2024, 15:39:21
+    Author     : pietro_sandri
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i.postimg.cc/VN9cP92t/image.png');
+    background-size: cover;
+    color: #e0e0e0; /* Texto claro para contraste */
+    font-family: roboto, sans-serif;
+    padding: 20px;
+    margin-right: 170px;
+    margin-left: 170px;
+}
+
+h1 {
+    color: #ffcc00; 
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: poppins;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+/* Contêiner para o formulário e a imagem */
+.form-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    flex: 1;
+    max-width: 400px;
+    padding: 20px;
+    background-color: #1e1e1e; /* Fundo levemente mais claro para o formulário */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave para destacar o formulário */
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #333333; /* Fundo dos inputs */
+    border: 1px solid #444444; /* Borda dos inputs */
+    border-radius: 4px;
+    color: #e0e0e0; /* Cor do texto nos inputs */
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+select:focus{
+    border-color: #ffcc00; /* Destaque no foco */
+    outline: none;
+}
+
+input::placeholder {
+    color: #888888; /* Cor do placeholder */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 4px;
+    color: #121212;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #e0b200; /* Efeito de hover */
+}
+
+/* Estilo da imagem ao lado direito */
+.form-img {
+    width: 500px;
+    height: 500px;
+    margin-left: 20px;
+    align-self: center; /* Centraliza verticalmente em relação ao formulário */
+}
+
